@@ -1,6 +1,6 @@
 FROM nextcloud:13.0.4
 
-ENV MYSQL_HOST=devops-nextclouddb
+ENV MYSQL_HOST=devops-nextclouddb:3306
 
 ENV MYSQL_DATABASE=nextcloud
 
